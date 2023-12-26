@@ -4,6 +4,13 @@ let resultDisplay = document.querySelector(".display-result")
 let string= "" ;
 let buttons = document.querySelectorAll(".btn") ; 
 
+
+//   let arr = [] ; 
+//   arr = buttons ;    buttons ko array me save kiya 
+//   console.log(arr);
+// arr.forEach((button)=>{
+
+
 Array.from(buttons).forEach((button)=>{
     button.addEventListener('click',(e)=>{
         if(e.target.innerHTML == "=") {
